@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Done"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"2","parents":[]},"eventTime":1647558787000,"message":"Compiling spark-df","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/camelia/Downloads/spark-df/#spark-df/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/camelia/Downloads/spark-df/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to /Users/camelia/Downloads/spark-df/target/scala-2.13/classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: textDocument/didClose: JsonRpcNotificationMessage(2.0, textDocument/didClose, {"textDocument":{"uri":"file:///Users/camelia/Downloads/spark-df/build.sbt"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: textDocument/didClose: JsonRpcNotificationMessage(2.0, textDocument/didClose, {"textDocument":{"uri":"file:///Users/camelia/Downloads/spark-df/src/main/scala/fr/data/spark/DataFrame.scala"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])[0m
